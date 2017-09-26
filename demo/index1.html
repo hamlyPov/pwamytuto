@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)https://staging.web.shoprunback.com/fr/asos/edb102c8-ddd0-4b11-809e-49ae7e6f6913/items -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>ShopRunBack - Retournez facilement vos commandes en ligne</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="https://staging.web.shoprunback.com/assets/favicon-e5446f1c15d307c8d95359e0663639a2dd795cf16ad990caffdab5aec478ad16.png">
+    <link rel="stylesheet" media="all" href="./index_files/application-30073e346e1f9d8055de80a79780184579ff110abadd2419861f9c5d77f1e618.css">
+    <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="ZVSCImJuEGBhY5lbeLr+8aZG24QNduujxTalTHDdCCZzH4mBbwA4b+Zxc1L+KVmnE2atHyQQoPvgP7HZqwTwTA==">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./index_files/css" rel="stylesheet">
+    <style type="text/css">
+      input#btn-next {
+          margin: 5px 0px;
+          padding: 0px 10px;
+          border-radius: 8px;
+          float: right;
+      }
+      #data-table tr th {
+          font-size: 20px;
+          text-align: center;
+          padding: 10px 0px;
+          /*border-top: 2px solid #ccc;*/
+          color: #000;
+      }
+      #data-table {
+          width: 100%;
+          margin: 5px 0px;
+      }
+      #data-table tr td {
+          padding: 0px;
+          font-size: 16px;
+          color: black;
+          text-align: center;
+      }
+      h3.item-type, h3.pickup-data {
+          text-align: center;
+          color: black !important;
+          padding: 20px;
+          padding-bottom: 10px;
+          font-size: 20px !important;
+          margin: 0px !important;
+      }
+      h3.pickup-data{
+        display: none;
+        padding-top: 2px !important;
+        font-weight: 500 !important;
+      }
+    </style>
+  </head>
+
+  <body style="">
+  <script async="" src="./index_files/analytics.js.download"></script><script>
+    shipback_id = 0;
+  </script>
+    <div class="container">
+        <div class="header col-12">
+  <div class="parameters col-xs-3 col-md-6 offset-xs-0 offset-md-6 mb-5">
+    <span class="pull-right">
+      <div class="dropdown" id="locale">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownLocale" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    English
+  </button>
+  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownLocale">
+      <a class="dropdown-item" href="#">
+        English
+</a>      <a class="dropdown-item" href="#">
+        Français
+</a>      <a class="dropdown-item" href="#">
+        Español
+</a>      <a class="dropdown-item" href="#">
+        Italiano
+</a>      <a class="dropdown-item" href="#">
+        deustsch
+</a>  </div>
+</div>
+
+    </span>
+  </div>
+  <h1 class="my-4 col-xs-3 offset-xs-1 col-sm-8  offset-sm-2 col-md-4 offset-md-4">
+    <img alt="Asos logo" id="logo-img" class="img-fluid" src="./index_files/asos-logo.jpg">
+  </h1>
+</div>
+        <main class="col-md-8 col-12">
+            <div class="row" id="breadcrumb">
+    <div class="col-10 offset-1">
+     <div class="row">
+        <div class="col-xs-6 col-md-4 offset-xs-3 offset-md-0  step passed">
+          <a href="#">RETURNS</a>
+        </div>
+        <div class="col-xs-6 col-md-4 offset-xs-3 offset-md-0 step active">
+          <a href="#">SHIPPING MODE</a>
+        </div>
+        <div class="col-xs-6 col-md-4 offset-xs-3 offset-md-0 step ">
+          <a href="#">CHECKOUT</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="refresh-data">
+    <button type="button" class="btn" onclick="readTextFile('file.txt')" style="margin-bottom: 10px;margin-top:23px">Refresh</button>
+    <p>Place your parcel on the Bedal</p>
+    <div class="re-table">
+      <table class="table" id="load-table">
+        
+      </table>
+    </div>
+  </div>
+ <div class="content">        
+  <div class="row items">
+    <div class="col-10 offset-1">
+    	  <a href="type.html">
+          <input type="button" name="commit" value="Continue" class="pull-right submit" data-disable-with="Étape suivante" style="position: relative;">
+        </a>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+</main>
+<div class="col-md-4 col-12" id="summary">
+    <!-- <h3 class="item-type"></h3> -->
+    <!-- <h3 class="pickup-data"></h3> -->
+    <table id="data-table">
+      <tr>
+        <th>Country</th>
+        <th>Brand</th>
+      </tr>
+    </table>
+</div>
+<div class="clearfix"></div>
+
+        <footer class="footer">
+  <div class="row">
+    <div class="col-lg-5 offset-lg-1 col-sm-10 offset-2 col-md-5">
+      POWERED BY
+      <a href="https://www.shoprunback.com/">
+        <img alt="powered by ShopRunBack" src="./index_files/shoprunback-e32922d99766cd7ea1a4e23d072c260741b8a3d3e16f1426a43c47001e97f213.png">
+</a>      &copy;2017
+    </div>
+    <div class="col-lg-3 offset-lg-3 col-sm-3 offset-4 col-md-3 offset-md-2">
+      <span class="social-networks">
+        <a target="blank" class="facebook" href="https://www.facebook.com/shoprunback">
+          <i class="fa fa-facebook facebook"></i>
+</a>        <a target="blank" class="twitter" href="https://twitter.com/shoprunback">
+          <i class="fa fa-twitter twitter"></i>
+</a>        <a target="blank" class="linkedin" href="https://www.linkedin.com/company/shoprunback">
+          <i class="fa fa-linkedin linkedin"></i>
+</a>      </span>
+    </div>
+  </div>
+</footer>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  function readTextFile(filename){
+      $('#load-table').empty();
+      var rawFile = new XMLHttpRequest();
+      rawFile.open("GET",filename, true);
+       rawFile.onreadystatechange = function () {
+          if (rawFile.readyState === 4 && rawFile.status === 200) {
+              var type = rawFile.getResponseHeader('Content-Type');
+              if (type.indexOf("text") !== 1) {
+                  console.log(rawFile.responseText)
+              }
+          }
+      }
+      rawFile.onreadystatechange = function (){
+          if(rawFile.readyState === 4)
+          {
+              if(rawFile.status === 200 || rawFile.status == 0)
+              {
+                  var allText = rawFile.responseText;
+                  var data = allText.split('\n');
+                  // for (var i = 0; i < data.length - 1; i++) {
+                  var i=data.length - 2;
+                  var dataRow = data[i].split(',');
+                  var raw=dataRow[4]+','+dataRow[5]+','+dataRow[6]+','+dataRow[7].trim();
+                  var td ='<td>'+dataRow[4]+'</td>';
+                      td +='<td>'+dataRow[5]+'</td>';
+                      td +='<td>'+dataRow[6]+'</td>';
+                      td +='<td>'+dataRow[7]+'</td>';
+                      td +='<td class="td-btn"><input type="button" value="Next" id="btn-next" onclick="btnNext(\''+raw+'\')"></td>';
+                  $('#load-table').append('<tr>'+td+'</tr>');
+                  // }
+              }
+          }
+      }
+      rawFile.send(null);
+  }
+  function btnNext(raw){
+    localStorage.setItem("dataRaw", raw);
+    window.location.href="type.html";
+  }
+  function replaceAll(find, replace,str) {
+   var re = new RegExp(find, 'g');
+   str = str.replace(re, replace);
+   return str; 
+  }
+
+  readTextFile('file.txt');
+
+  // var itemType=localStorage.itemType;
+  // if(itemType=='Pickup'){
+  //     var day = localStorage.pickupDay;
+  //     var day1 = localStorage.pickupDay1;
+  //     var month = localStorage.pickupMonth;
+  //     $('.item-type').html('Pickup');
+  //     $('.pickup-data').css('display','block');
+  //     $('.pickup-data').html(day+' - '+day1+' - '+month);
+  // }else if(itemType=='Postal'){
+  //     $('.item-type').html('Postal');
+  // }
+
+  var brandLogo = [];
+    brandLogo['H&M']='H&M.jpg';
+    brandLogo['LACOSTE']='LA-COSTE.jpg';
+    brandLogo['COS']='COS.jpg';
+    brandLogo['ADIDAS']='adidas.jpg';
+    brandLogo['CARREFOUR']='CARREFOUR.jpg';
+    brandLogo['MONOPRIX']='MONOPRIX.png';
+    brandLogo['LEVIS']='Levis.jpg';
+    brandLogo['MANGO']='MANGO.jpg';
+    brandLogo['TOPSHOP']='TOPSHOP.png';
+    brandLogo['BONPOINT']='Bonpoint.jpg';
+    brandLogo['CLAIRES']='CLAIRES.png';
+    brandLogo['DUPAREILAUMEME']='DU-AREIL-AU-MEME.jpg';
+    brandLogo['AMAZON']='AMAZON.jpg';
+    brandLogo['ASOS']='ASOS.png';
+    brandLogo['MYTHERESACOM']='mytheresa.jpg';
+    brandLogo['PLACEDESTENDANCES']='PLACE-DES-TENDANCES.jpg';
+    brandLogo['MRPORTER']='MR-PORTER.jpg';
+  var brand_country=localStorage.getBrand;
+  if(brand_country!=null){
+    var data=brand_country.split(',');
+    var td='<td>'+data[0]+'</td>';
+        td+='<td>'+data[1]+'</td>';
+    var brandName = data[1].replace('\'','');
+        brandName = brandName.replace('.','');
+        brandName = replaceAll(' ', '',brandName);
+    var logoImg = brandLogo[brandName];
+    $('#data-table').append('<tr>'+td+'</tr>');
+    $('#logo-img').attr('src','images/'+logoImg);
+  }
+</script>
+
+  
+
+</body></html>
